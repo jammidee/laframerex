@@ -8,6 +8,7 @@ rex - typescript react-native-expo
 
 **Make sure to install the NodeJS preferbly LTS
 **Install the latest VSCode
+**Download Expo Go App in Andoid and iOS
 
 1. npm install --global expo-cli
 2. In the folder where you want to create a new app, type the following command:
@@ -52,8 +53,12 @@ EXTENSIONS
 
 LIBRARIES
 
-**PUG 09/17/2023
-npm install bootstrap@latest --save
+**expo/vector-icons 10/09/2023
+npx expo install @expo/vector-icons
+npm audit fix --force
+npx expo doctor --fix-dependencies
+npm audit fix --force
+
 
 GIT - G1thUUb@!!M3
 ---
