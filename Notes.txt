@@ -16,6 +16,31 @@ rex - typescript react-native-expo
    npx expo install react-dom react-native-web @expo/webpack-config
    npx expo start
 
+3. Edit App.js
+
+   import { StatusBar } from 'expo-status-bar';
+   import { StyleSheet, Text, View } from 'react-native';
+
+   export default function App() {
+   return (
+      <View style={styles.container}>
+         <Text>Open up App.js to start working on your app!</Text>
+         <StatusBar style="auto" />
+      </View>
+   );
+   }
+
+   const styles = StyleSheet.create({
+   container: {
+      flex: 1,
+      backgroundColor: '#25292e',
+      alignItems: 'center',
+      justifyContent: 'center',
+   },
+   });
+
+4. 
+
 
 EXTENSIONS
 
@@ -43,7 +68,7 @@ git config --global user.email "jammi_dee@yahoo.com"
 git config --global user.name "Jammi Dee"
 git commit -m "Initial commit Lalulla Framework React Native Expo"  # Commit your changes
 git branch -M main  # Rename the default branch to 'main'
-git remote add origin https://github.com/jammidee/laframere.git  # Replace with your GitHub repository URL
+git remote add origin https://github.com/jammidee/laframerex.git  # Replace with your GitHub repository URL
 git pull origin main  #if there is error in push
 git pull origin main --allow-unrelated-histories #if there are errors
 git push -u origin main  # Push your code to GitHub
