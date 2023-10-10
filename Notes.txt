@@ -59,6 +59,8 @@ npm audit fix --force
 npx expo doctor --fix-dependencies
 npm audit fix --force
 
+**Image picker 10/09/2023
+npx expo install expo-image-picker
 
 GIT - G1thUUb@!!M3
 ---

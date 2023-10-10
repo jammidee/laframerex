@@ -1,0 +1,15 @@
+============================================================================
+Lalulla Framework
+============================================================================
+Copyright (C) Lalulla OPC , Inc - All Rights Reserved
+Written by Joel M. Damaso <jammidee@gmail.com>, September 10, 2023
+============================================================================
+ 
+Software Architect: 		Jammi Dee
+Framework Design: 			Jammi Dee
+Developed / Programmed by : Joel Margate Damaso aka Jammi Dee
+Tested / QA by:				Jammi Dee
+
+10/10/2023  - 
+10/09/2023  - Started the React-native Expo template
+
