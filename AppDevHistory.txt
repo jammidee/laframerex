@@ -10,6 +10,16 @@ Framework Design: 			Jammi Dee
 Developed / Programmed by : Joel Margate Damaso aka Jammi Dee
 Tested / QA by:				Jammi Dee
 
-10/10/2023  - 
+10/10/2023  - added imageviewer library
+            - added conditional creation of object using useState
+            - added more button styles
+            - Lesson006 - Added more button styles
+            - Lesson007 - Learn of FlatList
+            - added Native Gesture handler
+            - Created animated components
+            - added Tap Gesture and Pan Gesture
+            
+
+
 10/09/2023  - Started the React-native Expo template
 

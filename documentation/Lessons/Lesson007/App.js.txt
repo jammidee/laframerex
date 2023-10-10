@@ -1,7 +1,6 @@
 import { StatusBar } from "expo-status-bar";
 import { StyleSheet, View} from "react-native";
 import React, { useState } from 'react';
-import { GestureHandlerRootView } from "react-native-gesture-handler";
 
 import Button from './components/Button'; 
 import CircleButton from './components/CircleButton';
@@ -54,7 +53,7 @@ export default function App() {
   };
 
   return (
-    <GestureHandlerRootView style={styles.container}>
+    <View style={styles.container}>
       <View style={styles.imageContainer}>
         <ImageViewer placeholderImageSource={PlaceholderImage} />
         {pickedEmoji !== null ? <EmojiSticker imageSize={40} stickerSource={pickedEmoji} /> : null}
@@ -75,7 +74,7 @@ export default function App() {
         </View>
       )}
       <StatusBar style="auto" />
-    </GestureHandlerRootView>
+    </View>
   );
 }
 
