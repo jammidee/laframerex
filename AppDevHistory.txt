@@ -15,10 +15,12 @@ Tested / QA by:				Jammi Dee
             - added more button styles
             - Lesson006 - Added more button styles
             - Lesson007 - Learn of FlatList
-            - added Native Gesture handler
+            - Lesson008 added Native Gesture handler
             - Created animated components
             - added Tap Gesture and Pan Gesture
-            
+            - Lesson009 - Take a shot
+            - 
+
 
 
 10/09/2023  - Started the React-native Expo template

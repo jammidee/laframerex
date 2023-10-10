@@ -40,8 +40,40 @@ rex - typescript react-native-expo
    },
    });
 
-4. 
+4. Set the splash screen and app icon by editing the app.json
 
+   {
+      "expo": {
+         "name": "lakuborex",
+         "slug": "lakuborex",
+         "version": "1.0.0",
+         "orientation": "portrait",
+         "icon": "./assets/icon.png",
+         "userInterfaceStyle": "light",
+         "splash": {
+            "image": "./assets/splash.png",
+            "resizeMode": "contain",
+            "backgroundColor": "#ffffff"
+         },
+         "assetBundlePatterns": [
+            "**/*"
+         ],
+         "ios": {
+            "supportsTablet": true
+         },
+         "android": {
+            "adaptiveIcon": {
+            "foregroundImage": "./assets/adaptive-icon.png",
+            "backgroundColor": "#ffffff"
+            }
+         },
+         "web": {
+            "favicon": "./assets/favicon.png"
+         }
+      }
+   }   
+
+5. 
 
 EXTENSIONS
 
@@ -87,6 +119,8 @@ npm install -D @babel/plugin-proposal-export-namespace-from
 *Restart the server by calling this command in the terminal:
    npx expo start -c
 
+**Expo Media Library 10/10/2023
+npx expo install react-native-view-shot expo-media-library
 
 GIT - G1thUUb@!!M3
 ---
