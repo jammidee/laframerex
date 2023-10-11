@@ -82,6 +82,7 @@ EXTENSIONS
 3. Prettier - Code Fomratter - Prettier
 4. JavaSscript Debugger (Nightly) - Microsoft
 5. Material Icon Theme - Philipp Kief
+6. Markdown Preview Github Styling - Matt Bierner
 
 LIBRARIES
 
