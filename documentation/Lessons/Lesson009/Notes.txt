@@ -74,8 +74,6 @@ rex - typescript react-native-expo
    }   
 
 5. npx expo start
-
-
 6. Install the following libraries for the menu
 
    npx expo install @react-navigation/drawer
@@ -110,36 +108,8 @@ rex - typescript react-native-expo
          "main": "node_modules/expo/AppEntry.js",
       to:
          {
-         "main": "index.js"
+         "main": "expo-router/entry"
          }
-
-8. Create index.js in the root folder
-   *Place the following
-
-   import "expo-router/entry";
-
-9. In the package.json add:
-
-  "resolutions": {
-    "metro": "0.76.0",
-    "metro-resolver": "0.76.0"
-  },
-   "overrides": {
-      "metro": "0.76.0",
-      "metro-resolver": "0.76.0"
-   },
-
-10. Setup Babel
-
-   module.exports = function (api) {
-   api.cache(true);
-   return {
-      presets: ["babel-preset-expo"],
-      plugins: ["expo-router/babel"],
-   };
-   };
-
-11. 
 
 EXTENSIONS
 

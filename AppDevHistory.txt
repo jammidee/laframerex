@@ -11,6 +11,10 @@ Developed / Programmed by : Joel Margate Damaso aka Jammi Dee
 Tested / QA by:				Jammi Dee
 
 10/11/2023  - added markdown
+            - clean up of the tutorial code and started the framework development
+            - added Drawer menu in the app
+            - 
+
 10/10/2023  - added imageviewer library
             - added conditional creation of object using useState
             - added more button styles
